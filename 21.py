@@ -1,7 +1,4 @@
-value = []
-items=[x for x in input("Nhap cac so nhi phan: ").split(',')]
-for p in items:
-    intp = int(p, 2)
-    if not intp%5:
-        value.append(p)
-print (','.join(value))
+S = input("Nhap chuoi nhi phan: ").split(',')
+for i in S:
+    if int(i, 2) % 5 == 0:
+        print(i)
