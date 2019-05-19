@@ -1,3 +1,4 @@
 S = input("Nhap chuoi: ").split()
 S.sort()
-print (S)
+for i in S:
+  print (i)
